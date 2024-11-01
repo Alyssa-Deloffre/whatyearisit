@@ -1,7 +1,7 @@
 
 
 function getYear(){
-    fetch('http://whatyearisit-backend-two-henna.vercel.app/year')
+    fetch('https://whatyearisit-backend-two-henna.vercel.app/year')
     .then(response => response.json())
     .then(data => {
         document.querySelector("#year").innerHTML += data.year
